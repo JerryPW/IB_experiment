@@ -1,4 +1,4 @@
-# IDNNs
+# IB_experiment
 ## Description
 This is the final project of Information Theory in SJTU, and the main topic of this project is Information Bottleneck Problem. The code here is just for validation. 
 
@@ -11,7 +11,15 @@ This is the final project of Information Theory in SJTU, and the main topic of t
 
 ## Usage
 All the code is under the `idnns/` directory.
+Set up the conda environment: 
+```
+conda env create -f environment.yml
+conda activate IDNN
+```
 For training a network and calculate the MI and the gradients of it run the an example in [main.py](main.py).
+```
+python main.py
+```
 Off course you can also run only specific methods for running only the training procedure/calculating the MI.
 This file has command-line arguments as follow - 
  - `start_samples` - The number of the first sample for calculate the information
