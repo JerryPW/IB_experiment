@@ -1,0 +1,9 @@
+name: IDNN
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - tensorflow>=1.0
+  - numpy
+  - matplotlib
+  - joblib
